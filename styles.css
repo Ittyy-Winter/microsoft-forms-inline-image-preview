@@ -1,0 +1,23 @@
+.forms-inline-image-preview {
+  display: block;
+  max-width: 320px;
+  height: auto;
+  margin: 8px 0 18px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.forms-inline-image-source-hidden {
+  display: none !important;
+}
+
+@media print {
+  .forms-inline-image-preview {
+    max-width: 100%;
+    margin: 10px 0 20px;
+    break-inside: avoid;
+    box-shadow: none;
+  }
+}
